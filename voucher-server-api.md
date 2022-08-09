@@ -8,9 +8,10 @@ Request:
 
 ```ts
 type RequestBody = {
-  safeAddress: string; // "0x4568236725783625783243873253..."
-  voucherProviderId: string; // z.b. "goodbuy"
+  safeAddress: string; // e.g. "0x4568236725783625783243873253..."
+  voucherProviderId: string; // e.g. "goodbuy"
   amount: number; // Euro-Cent
+  transactionId: string; // e.g. "20046-7"
 }
 ```
 
